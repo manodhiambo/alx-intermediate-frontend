@@ -1,0 +1,13 @@
+.info {
+  font-size: 12px;
+  color: #00FF00;
+}
+
+.success {
+  @extend .info;
+}
+
+.warning {
+  @extend .info;
+}
+
